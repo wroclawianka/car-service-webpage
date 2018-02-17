@@ -1,6 +1,6 @@
 # car-service-webpage
 
-A Webpage of unexisting service company. 
+A webpage of unexisting service company. 
 
 Used in this project: 
 - jQuery
