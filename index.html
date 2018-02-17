@@ -1,0 +1,111 @@
+<!DOCTYPE html">
+
+<html lang="pl" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Car Services | Best in your city</title>
+    <META name="Description" content="Comprehensive Locksmithing and Welding Services | MIG / MAG, TIG, MMA welding" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link href="./styles/style.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container dark">
+        <div class="home section">
+            <div class="main">
+            </div>
+            <div id="menu">
+                <a href="#home" class="menuitem">Home</a>
+                <a href="#services" class="menuitem">Offer</a>
+                <a href="#contact" class="menuitem">Contact</a>
+            </div>
+        </div>
+        <div id="services" class="section light">
+            <h2 class="anchor-title">Offer</h2>
+            <div class="box header">
+                <h3 class="subtitles">Our specialization is</h3>
+                <h1>Comprehensive Locksmithing and Welding Services</br>
+                    MIG / MAG, TIG, MMA welding</h1>
+                <h3 class="subtitles">including:</h3>
+            </div>
+            <div class="wrapper">
+                <div class="box">
+                    <h2><i class="fa fa-motorcycle" aria-hidden="true"></i></h2>
+                    <h2>Welding</h2>
+                    <span>We use MIG / MAG, TIG and MMA methods. 
+                     We weld steel, stainless steel and aluminum</span>
+                </div>
+                <div class="box">
+                    <h2><i class="fa fa-cog" aria-hidden="true"></i></h2>
+                    <h2>Locksmith Services</h2>
+                    <span>We make mechanical and gas cuts and also grinding, bending and threading</span>
+                </div>
+                <div class="box">
+                    <h2><i class="fa fa-car" aria-hidden="true"></i></h2>
+                    <h2>Mechanics</h2>
+                    <span>We provide comprehensive tinsmith repair
+                                        and painting and vehicle mechanics</span>
+                </div>
+            </div>
+            <div class="box">
+                <h3 class="subtitles">In addition, we carry out:</h3>
+            </div>
+            <div class="wrapper-2">
+                <div class="box spec">
+                    <h2><i class="fa fa-wrench" aria-hidden="true"></i></h2>
+                    <h2>Steel structures</h2>
+                    <span>Gateways with automation, fences, wickets, balustrades, 
+                                            stairs, glass roofs, furniture, frames</span>
+                </div>
+                <div class="box spec">
+                    <h2><i class="fa fa-comments" aria-hidden="true"></i></h2>
+                    <h2>Designs on client's request</h2>
+                    <span>We undertake to make all kinds of bespoke equipment and devices</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="section">
+            <h1 class="anchor-title">Contact</h1>
+            <div class="wrapper">
+                <div class="box">
+                    <h2><i class="fa fa-mobile" aria-hidden="true"></i> Phone:</h2>
+                    <div class="row adress">(257) 563-7401</div>
+                </div>
+                <div class="box">
+                    <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address:</h2>
+                    <div class="row adress">Car Service<br>711-2880 Nulla St.<br>Mankato Mississippi 96522</div>
+                </div>
+                <div class="box">
+                    <h2><i class="fa fa-at" aria-hidden="true"></i> E-mail:</h2>
+                    <div class="row adress">car-service@example.com</div>
+                </div>
+            </div>
+            <div class="row map">
+                <div>
+                    <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJmcbibXXCD0cRBrRFSzxTbZk&key=AIzaSyBPnB4WjN6eOFIsGufyxNAXMtEKsPelLoU" height="450px" width="100%" frameborder="0" allowfullscreen=allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+<script>
+    //smooth scrolling
+    $('a[href*="#"]').click(function(event) {
+        var target = $(this.hash);
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 1000, function() {});
+        }
+    });
+</script>
