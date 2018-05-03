@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wroclawianka/workshop/master/workshop.jpg"/>
+  <img src="https://raw.githubusercontent.com/wroclawianka/car-service-webpage/master/workshop.jpg"/>
 </p>
 
 # Car Service Webpage
