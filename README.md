@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wroclawianka/workshop/master/workshop.jpg"/>
+</p>
+
 # Car Service Webpage
 
 A webpage of an unexisting service company. 
