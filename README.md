@@ -8,4 +8,4 @@
   <img width="40%" src="https://raw.githubusercontent.com/wroclawianka/list-of-projects/master/assets/img/workshop-page_2.png"/>
 </p>
 
-### To see my newer project in the same topic I created go to [workshop-modern](https://github.com/wroclawianka/workshop-modern) repository.
+Visit [workshop-modern](https://github.com/wroclawianka/workshop-modern) repository it see more recent project of the website
